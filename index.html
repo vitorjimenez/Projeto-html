@@ -16,6 +16,9 @@
         <a href="esporte.html">Esportes</a>
         <a href="nosContate.html">Nos contate</a>
       </div>
+<br>
+<br>
+<br>
 
       <section id="indice">
         <fieldset>
@@ -47,13 +50,14 @@
         </p>
       </section>
 
-      <h4 class="tituloApresentacao">Notícias de hoje</h4>
+      <h4 class="noticiaHoje">Notícias de hoje</h4>
 
       <section class="gridSection" id="NoticiaIndex">
-        <article>
-          <h3>
-            "Astro do cinema renomado anuncia seu retorno em novo filme de ação"
-          </h3>
+        <section class="apresentacaoNoticia">
+          <div class="tituloApresentacao"> 
+         <a href="/entretenimento/artigoEntretenimento1.html"> <h3>
+            Astro do cinema renomado anuncia seu retorno em novo filme de ação
+          </h3></a>
           <img
             src="https://media.gettyimages.com/id/110146452/pt/foto/american-theatre-director-and-playwright-robert-wilson-france-1988.jpg?s=612x612&w=gi&k=20&c=7E9yN-aC3_Z3kW1sxGUcuWjS42IQQ2OEBShn1SYw5No="
             alt="Imagem sobre o atro do cinema"
@@ -65,14 +69,14 @@
             retorno às telonas com um papel principal em um novo filme de ação
             de grande orçamento. Após um hiato de três anos, os fãs do ator
             podem esperar uma performance emocionante e cheia de adrenalina,
-            trazendo-o de volta ao centro das atenções de Hollywood. Para mais, <a href="#">confira.</a>
+            trazendo-o de volta ao centro das atenções de Hollywood.
           </p>
         </article>
         <article>
-          <h3>
+          <a href="/entretenimento/artigoEntretenimento2.html"><h3>
             Banda de rock icônica anuncia turnê mundial em comemoração aos 30
             anos de carreira
-          </h3>
+          </h3></a>
           <img
             src="https://www.rbsdirect.com.br/filestore/4/3/3/8/4/3/3_1193242d6e8c270/3348334_2205eae6692f3ef.jpg?w=700"
             alt="Imagem aleatória relacionada a um show de rock"
@@ -84,15 +88,18 @@
             lendária "Sonic Blast", anunciou uma turnê mundial especial para
             celebrar seu trigésimo aniversário de carreira. Os fãs terão a
             oportunidade de reviver os sucessos que marcaram gerações e
-            testemunhar performances ao vivo inesquecíveis. Para mais, <a href="#">confira.</a>
+            testemunhar performances ao vivo inesquecíveis. 
           </p>
         </article>
         <article>
+         <a href="/politica/artigoPolitica2.html">
           <h3>Debate acalorado no Congresso sobre reforma tributária</h3>
+        </a>
           <img
             src="https://s4.static.brasilescola.uol.com.br/be/2023/02/sede-do-congresso-nacional-em-brasilia-com-reflexo-do-predio-no-espelho-dagua-a-sua-frente.jpg"
             alt="Imagem sobre o congresso nacional brasileiro"
             width="200px"
+            class="Image"
           />
           <p>
             Uma acalorada discussão tomou conta do Congresso Nacional enquanto
@@ -101,18 +108,17 @@
             patrimônio, com o objetivo de tornar o sistema tributário mais justo
             e eficiente. Grupos de interesse e especialistas estão divididos
             sobre as melhores abordagens, gerando intensos debates sobre os
-            possíveis impactos econômicos e sociais das medidas. Para mais, <a href="#">confira.</a>
+            possíveis impactos econômicos e sociais das medidas.
           </p>
-        </article>
+
+          </div>
+        </section>
       </section>
       <section id="maisAcessados">
         <div class="tituloApresentacao">
-          <h3>Mais acessados</h3>
+          <h3 class="noticiaHoje">Mais acessados</h3>
         </div>
-        <table class="tabela">
-          <thead>
-            Notícias mais acessadas da semana
-          </thead>
+        <table class="tabela" id="tabela">      
           <tr>
             <th>Notícia</th>
             <th>Data</th>
@@ -120,10 +126,40 @@
             <th>Autor</th>
           </tr>
           <tr>
-            <td>Noticia</td>
-            <td>Data</td>
-            <td>200.000</td>
-            <td>Fulano</td>
+            <td>Estrela do pop revela detalhes sobre seu próximo álbum e parcerias musicais</td>
+            <td>20/06/2023</td>
+            <td>340.342 visualizações</td>
+            <td>Giovana Flores</td>
+          </tr>
+          <tr>
+            <td>Astro do cinema renomado anuncia seu retorno em novo filme de ação</td>
+            <td>30/06/2023</td>
+            <td>339.897 visualizações</td>
+            <td>Elisangela G. P. Tiara </td>
+          </tr>
+          <tr>
+            <td>Nova série de suspense se torna a sensação do momento nas plataformas de streaming</td>
+            <td>03/06/2023</td>
+            <td>329.545 visualizações</td>
+            <td>Elisangela G. P. Tiara</td>
+          </tr>
+          <tr>
+            <td>Novo projeto de lei visa promover a sustentabilidade e reduzir as emissões de carbono</td>
+            <td>20/06/2023</td>
+            <td>327.665 visualizações</td>
+            <td> Carlos Gabriel P. T </td>
+          </tr>
+          <tr>
+            <td>Mogi das Cruzes sediará importante evento cultural de música e arte</td>
+            <td>20/06/2023</td>
+            <td>323.231 visualizaçõess</td>
+            <td>Maria de Jesus</td>
+          </tr>
+          <tr>
+            <td>Estrela do pop revela detalhes sobre seu próximo álbum e parcerias musicais</td>
+            <td>22/06/2023</td>
+            <td>320.457 visualizações</td>
+            <td>Vitor G. Pietro Toscano</td>
           </tr>
         </table>
       </section>
@@ -131,31 +167,46 @@
       <section id="autoresPopulares" class="artigo">
         <div>
           <h3 class="tituloApresentacao">Autores populares</h3>
-          <p>
+          <p class="noticiaHoje">
             Confira alguns dos nossos autores com trabalhos mais acessados da
             semana!
           </p>
 
           <ul>
-            <li>Autor - <a href="#">Esportes</a></li>
-            <li>Autor - <a href="#">Politica</a></li>
-            <li>Autor - <a href="#">Entretenimento</a></li>
-            <li>Autor - <a href="#">Notícias locais</a></li>
+            <li>
+              Autor - Michael G. P. Tarcísio •
+              <a href="esporte.html#natacao">Esportes</a>
+            </li>
+            <li>
+              Autor - Carlos Gabriel P. T. •<a href="politica.html#projetoLei"
+                > Politica</a
+              >
+            </li>
+            <li>
+              Autor - Elisangela G. P. Tiara •<a
+                href="entretenimento.html#AstroCinema"
+                > Entretenimento</a
+              >
+            </li>
+            <li>
+              Autor - Vitor G. Pietro Toscano •<a href="noticiasLocais.html#mogi"
+                > Notícias locais</a
+              >
+            </li>
           </ul>
         </div>
       </section>
 
       <section>
-        <div>
+        <div id="videos">
           <h3 class="tituloApresentacao">
             Confira as principais notícias em vídeo
           </h3>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-            ipsum ex quod tempore commodi, rem nobis architecto, eaque
-            dignissimos culpa minus aliquam incidunt debitis! Tenetur itaque
-            minima illum ad. Velit.
-          </p>
+          <iframe width="400" height="215" src="https://www.youtube.com/embed/T_AmAeCqqqM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+          <iframe width="400" height="215" src="https://www.youtube.com/embed/PYi09FxQRR4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <br>
+          <iframe width="400" height="215" src="https://www.youtube.com/embed/fYaN45vel9Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe width="400" height="215" src="https://www.youtube.com/embed/8RNopSw5JDE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
       </section>
 
@@ -164,7 +215,7 @@
           ©Copyright 2020-2023 Meu site de notícias Comunicações e
           Participações. S/A
         </p>
-        <a href="">Nos Contate</a>
+       <h3> <a href="nosContate.html" id="contact">Nos Contate</a> </h3>
       </footer>
     </header>
   </body>

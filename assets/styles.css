@@ -1,0 +1,149 @@
+* {
+    font-family: sans-serif;
+}
+
+.apresentacaoNoticia{
+    padding: 10px;
+    margin: 5px;
+    background-color: white;   
+}
+
+.tituloApresentacao{
+    font-style: italic;
+    font-size: 25px;
+    margin: 20px;
+    padding: 15px;
+    text-align: center;
+}
+
+
+.noticiaHoje {
+    background-color: black; 
+    color: white; 
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/*.tabela{
+     margin: 10px;
+     border:  1px solid black;
+     border-collapse: collapse;
+     width: 100%;
+
+}*/
+
+#tabela {
+    font-family: sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #tabela td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #tabela tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #tabela tr:hover {background-color: #ddd;}
+  
+  #tabela th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+#autoresPopulares{
+    padding: 20px;
+    margin: 20px;
+    width: 100%;
+    font-size: 23px;
+}
+.apresentacaoPrincipal{
+    color: red;
+}
+.header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 20px 10px; 
+  }
+
+  .header-direita a{
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+
+  .footer{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    border-radius: 2px;
+  }
+
+  .footer a{ 
+    color: white;   
+  }
+
+  #contact{
+    
+    
+  }
+ 
+
+  #contact{
+    text-decoration: none;
+    
+  }
+
+  .noticia{
+    font-size: 20px;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    
+  }
+
+  #video{
+    text-align: left;
+  }
+
+  .Image{
+    margin: 20px;
+    padding-left: em;
+    width: 300px;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+
+  .header a.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    border-radius: 5px ;
+ }
+
+  .header a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .header-direita {
+    float: right;
+  }
+ 
