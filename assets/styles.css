@@ -82,6 +82,44 @@
     border-radius: 4px;
   }
 
+    .forms{
+    padding-top: 9em;
+    padding-bottom: 20em;
+    font-size: 20px;
+    font-size: bold;
+    background-color: rgb(182, 180, 180);
+    border-radius: 20px;
+    margin: 20px;
+    text-align: center;
+}
+    #nomeUsuario, #emailUsuario, #razaoContato, #outro{
+        font-size: 20px;
+        padding: 5px;
+        margin: 4px;
+        border: 1px solid gray;
+        border-radius: 5px;
+    }
+
+#cancelButton{
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    border: none; 
+    background-color: hotpink;
+    border-radius: 5px;
+}
+
+.button{
+    padding: 15px;
+    background-color: darkblue;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border: none;   
+    cursor: pointer;
+    border-radius: 5px;
+}
+
   .footer{
     background-color: black;
     color: white;
